@@ -5,4 +5,5 @@ router.get('/all', function(req, res){
     res.send('hello mrj')
 })
 
-module.exports = router
+// module.exports = router
+exports.router = router
